@@ -19,7 +19,9 @@ app.get("/", (req, res) => {
 // Banco de dados temporário
 let usuarios = [
   { id: 1, nome: "João", email: "joao@email.com" },
-  { id: 2, nome: "Maria", email: "maria@email.com" }
+  { id: 2, nome: "Maria", email: "maria@email.com" },
+  { id: 3, nome: "Ana", email: "Ana@email.com" },
+  { id: 4, nome: "Pedro", email: "Pedro@email.com" }
 ];
 
 // Listar usuários
